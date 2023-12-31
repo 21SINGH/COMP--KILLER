@@ -20,22 +20,9 @@ const Navbar = () => {
           />
 
           <p className="nav-logo">
-            Comp<span className='text-primary'>Killer</span>
+            Comp<span className='text-primary'>Killer</span> <span className='text-stone-500'>works best with amazon.com</span> 
           </p>
         </Link>
-
-        <div className="flex items-center gap-5">
-          {navIcons.map((icon) => (
-            <Image 
-              key={icon.alt}
-              src={icon.src}
-              alt={icon.alt}
-              width={28}
-              height={28}
-              className="object-contain"
-            />
-          ))}
-        </div>
       </nav>
     </header>
   )
